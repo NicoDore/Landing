@@ -128,6 +128,10 @@
 </script>
 <style>
 
+    *{
+        scroll-behavior: smooth;
+    }
+
     #cards{
         margin-top: 50px;
     }
@@ -138,8 +142,9 @@
 
     @media (max-width: 1199.98px) {
         iframe {
-            width: 620px;
-            height: 315px;
+            margin: auto;
+            width: 80%;
+            height: 430px;
         }
     }
 
